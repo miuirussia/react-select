@@ -1,6 +1,6 @@
 {
-  "name": "react-select",
-  "version": "1.2.0",
+  "name": "@kdeveloper/react-select",
+  "version": "1.2.1",
   "description": "A Select control built with and for ReactJS",
   "main": "lib/index.js",
   "jsnext:main": "dist/react-select.es.js",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JedWatson/react-select.git"
+    "url": "https://github.com/miuirussia/react-select.git"
   },
   "dependencies": {
     "classnames": "^2.2.4",
@@ -88,7 +88,12 @@
     "test": "cross-env NODE_ENV=test mocha --compilers js:babel-core/register",
     "precommit": "lint-staged && yarn run test"
   },
-  "files": ["dist", "less", "lib", "scss"],
+  "files": [
+    "dist",
+    "less",
+    "lib",
+    "scss"
+  ],
   "keywords": [
     "combobox",
     "form",

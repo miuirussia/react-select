@@ -2434,8 +2434,8 @@ var CreatableSelect = function (_React$Component) {
 			var _this2 = this;
 
 			var _props4 = this.props,
-			    refProp = _props4.ref,
-			    restProps = objectWithoutProperties(_props4, ['ref']);
+			    refProp = _props4.selectRef,
+			    restProps = objectWithoutProperties(_props4, ['selectRef']);
 			var children = this.props.children;
 
 			// We can't use destructuring default values to set the children,
@@ -2585,7 +2585,7 @@ CreatableSelect.propTypes = {
 	// (filterText: string): string
 	promptTextCreator: PropTypes.func,
 
-	ref: PropTypes.func,
+	selectRef: PropTypes.func,
 
 	// Decides if a keyDown event (eg its `keyCode`) should result in the creation of a new option.
 	shouldKeyDownEventCreateNewOption: PropTypes.func
